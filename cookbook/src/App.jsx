@@ -8,12 +8,12 @@ import Signup from './pages/signup'
 import Recipe from './pages/recipe'
 import Recipedetail from './pages/recipedetail'
 import Addrecipe from './pages/addrecipe'
-
+import backimg from './assets/dishwallpaper.jpg'
 function App() {
   
   return (
     <div>
-      <div className='bg-home bg-cover bg-center h-fit min-h-[100vh] p-4'>    
+      <div className='bg-cover bg-center h-fit min-h-[100vh] p-4' style={{ backgroundImage: `url(${backimg})` }}>    
         {/* header */}
         <Header />
         {/* homepage */}
